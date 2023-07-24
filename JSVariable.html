@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tugas JS Variable</title>
+    </head>
+    <body>
+        <h1>Tugas Section 4-3</h1>
+
+        <p id="pake_var"></p>
+        <p id="pake_let"></p>
+        <p id="pake_nothing"></p>
+        <p id="Hitungan_x"></p>
+        <p id="Hitungan_y"></p>
+
+        <script>
+            //pake var dulu
+            var x1 = 2;
+            var y1 = 4;
+            var z1 = 6;
+            var c1 = x1 + y1;
+            document.getElementById("pake_var").innerHTML = "the value of c if using var:" + c1;
+
+            //pake let nih
+            let x2 = 2;
+            let y2 = 4;
+            let z2 = 6;
+            let c2 = x2 + y2;
+            document.getElementById("pake_let").innerHTML = "the value of c if using let:" + c2;
+
+            //ga pake apa2
+            x3 = 2;
+            y3 = 4;
+            z3 = 6;
+            c3 = x3 + y3;
+            document.getElementById("pake_nothing").innerHTML = "the value of c if use nothing is:" + c3;
+
+            //tugasnya
+            let x = '10' + 10 + 10;
+            let y = 10 + 10 + '10';
+            document.getElementById('Hitungan_x').innerHTML = x;
+            document.getElementById('Hitungan_y').innerHTML = y;
+
+        </script>
+    </body>
+</html>
